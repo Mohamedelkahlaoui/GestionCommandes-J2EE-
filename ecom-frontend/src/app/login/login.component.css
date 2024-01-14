@@ -1,0 +1,42 @@
+/* login.component.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    background-color: #f5f5f5;
+}
+
+.card {
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.mat-error {
+    color: #f44336; /* Red color */
+    font-size: 14px;
+    margin-top: 5px;
+}
+.mat-form-field {
+    margin-bottom: 20px;
+}
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.text-center {
+    width: 20%;
+}

@@ -1,0 +1,19 @@
+mat-grid-tile {
+    border: 1px solid #eee;
+}
+mat-grid-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+mat-grid-tile {
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+mat-grid-tile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

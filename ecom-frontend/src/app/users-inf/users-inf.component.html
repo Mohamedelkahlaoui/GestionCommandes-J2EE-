@@ -1,0 +1,12 @@
+<!-- <p>users-inf works!</p> -->
+<h2>User Information</h2>
+<ul>
+    <li *ngFor="let user of users">
+        <h3>{{ user.userName }}</h3>
+        <p>
+            <strong>First Name:</strong> {{ user.userFirstName }} <br>
+            <strong>Last Name:</strong> {{ user.userLastName }} <br>
+            <strong>Roles:</strong> <span *ngFor="let role of user.role">{{ role.roleName }} </span>
+        </p>
+    </li>
+</ul>

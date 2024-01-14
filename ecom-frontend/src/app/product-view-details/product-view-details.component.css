@@ -1,0 +1,27 @@
+.product-information{
+    font-size: medium;
+}
+
+.image-container{
+    height: 450px;
+}
+.mat-grid-tile {
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+.mat-grid-tile img {
+    height: 150px;
+}
+
+.product-information {
+    margin-top: 3rem;
+}
+
+.product-information .mt-3 {
+    margin-top: 3rem;
+}
+
+.product-information .mt-5 {
+    margin-top: 5rem;
+}

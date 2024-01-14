@@ -1,0 +1,36 @@
+/* buy-product.component.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.card {
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.mat-form-field {
+    margin-bottom: 20px;
+}
+
+input.matInput {
+    color: #3f51b5;
+}
+.place-order-button {
+    background-color: #3f51b5; /* Change this to your preferred color */
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.mat-form-field {
+    background-color: #f0f0f0; /* Change this to your preferred color */
+}
+.mat-error {
+    color: red;
+    font-size: 0.8em;
+    font-weight: bold;
+}

@@ -1,0 +1,34 @@
+mat-grid-tile {
+    border: 1px solid rgb(226, 221, 221);
+    border-radius: 5%;
+}
+
+.home-page-product-image {
+    max-width: 90%;
+    max-height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    margin-top: 5rem;
+}
+
+.mat-form-field {
+    width: 50%;
+}
+
+.row {
+    padding: 3rem;
+}
+
+.row img {
+    height: 250px;
+}
+
+.row .mt-3 p,
+.row .mt-2 p {
+    white-space: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
